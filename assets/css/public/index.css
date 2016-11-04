@@ -1,0 +1,147 @@
+/* content */
+.content .page {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.content .main {
+
+}
+
+.content {
+  position: relative;
+  overflow: auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#plan_calendar {
+  transition: .5s linear all;
+  height: 525px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+#plan_calendar.ng-hide {
+  height: 0;
+}
+
+/* create story button */
+#create-story {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+/* plan */
+.lock-size {
+  position: fixed;
+  display: block;
+  right: 15px;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+.gm-style > div:nth-child(2) {
+  display: none;
+}
+.gm-style > div:nth-child(3) {
+  display: none;
+}
+.gm-style > div:nth-child(4) {
+  display: none;
+}
+.gm-style > div:nth-child(5) {
+  display: none;
+}
+.gm-style > div:nth-child(6) {
+  display: none;
+}
+.gm-style > div:nth-child(7) {
+  display: none;
+}
+
+.searchBtn {
+  color : rgb(49, 46, 46);
+  background-color: #0097A7;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  min-height: 15%;
+  margin: 0 0 10px 0;
+}
+.searchBtn:not([disabled]):hover {
+  background-color: #E91E63;
+  color: white;
+}
+.searchBtn[disabled] {
+  color : rgb(49, 46, 46);
+  background-color: #0097A7;
+}
+
+.materialBtn {
+  color : rgb(49, 46, 46);
+  background-color: #1B5E20;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+}
+.materialBtn:not([disabled]):hover {
+  background-color: #E91E63;
+  color: white;
+}
+.materialBtn[disabled] {
+  color : rgb(187, 187, 187);
+  background-color: #1B5E20;
+}
+
+.companionBtn {
+  color : rgb(49, 46, 46);
+  background-color: #FF9800;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+}
+.companionBtn:not([disabled]):hover {
+  background-color: #E91E63;
+  color: white;
+}
+.companionBtn[disabled] {
+  color : rgb(187, 187, 187);
+  background-color: #FF9800;
+}
+
+.summaryBtn {
+  color : rgb(49, 46, 46);
+  background-color: #673AB7;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+}
+.summaryBtn:not([disabled]):hover {
+  background-color: #E91E63;
+  color: white;
+}
+
+.drop-box {
+  background: #F8F8F8;
+  border: 5px dashed #DDD;
+  height: 94%;
+  text-align: center;
+  padding-top: 0;
+  margin: 0;
+}
+
+.dragover {
+  border: 5px dashed red;
+}

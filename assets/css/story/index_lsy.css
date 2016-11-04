@@ -1,0 +1,103 @@
+
+  #footprint #good_check{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  body {
+    font-family:"Helvetica Neue", Arial, sans-serif;
+  }
+
+  #view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .location{
+    height:725px;
+    background-color:#263238;
+    flex-flow:column nowrap;
+  }
+
+  .location_info{
+    order:1;
+    width:100%;
+    height:58%;
+    background-color:deepskyblue;
+  }
+
+  .location_comment{
+    order:2;
+    width:100%;
+    height:39.5%;
+    background-color:whitesmoke;
+  }
+
+  .location_album {
+    width: 100%;
+    height: 720px;
+    order: 3;
+    background-color: rgb(63,81,181);
+    overflow: auto;
+  }
+
+  .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+  }
+
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+  }
+
+  .grid-item,
+  .grid-item-content {
+    width: 210px;
+    height: 210px;
+  }
+
+  .grid-item-content {
+    transition: width 0.4s, height 0.4s;
+  }
+
+  .grid-item.is-expanded,
+  .grid-item.is-expanded .grid-item-content {
+    width: 420px;
+    height: 420px;
+  }
+
+  .gigante {
+    width: 420px;
+    height: 420px;
+  }
+
+  .image-size-current {
+    width: 210px;
+    height: 210px;
+  }
+
+  .image-size-clicked {
+    width: 420px;
+    height: 420px;
+  }
+
+  .farbtastic .wheel {
+    background: url(/images/sketch/wheel.png) no-repeat;
+    width: 195px;
+    height: 195px;
+  }
+  .farbtastic .overlay {
+    background: url(/images/sketch/mask.png) no-repeat;
+  }
+  .farbtastic .marker {
+    width: 17px;
+    height: 17px;
+    margin: -8px 0 0 -8px;
+    overflow: hidden;
+    background: url(/images/sketch/marker.png) no-repeat;
+  }

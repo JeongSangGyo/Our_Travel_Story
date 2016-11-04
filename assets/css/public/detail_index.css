@@ -1,0 +1,28 @@
+/* content */
+.content .page {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+.content .main {
+
+}
+
+.content {
+  position: relative;
+  overflow: auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* create story button */
+#create-story {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}

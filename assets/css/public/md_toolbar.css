@@ -1,0 +1,12 @@
+md-toolbar .md-toolbar-tools .md-button,
+md-toolbar .md-toolbar-tools .md-button:hover {
+  box-shadow: none;
+  border: none;
+  transform: none;
+  -webkit-transform: none;
+}
+
+.left {
+  top: 88% !important;
+  left: 93% !important;
+}
